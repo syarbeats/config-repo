@@ -2,11 +2,11 @@ example:
   property: "FINANCE"
 spring:
   application:
-    name: FINANCEAPI
+    name: finance-api
   datasource:
-    url: jdbc:mysql://localhost:3306/ApplicationGatewayDB?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/financedb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
-    password: asakkd293kkerer4refff
+    password: Diah!)@(*
     driverClassName: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
@@ -17,5 +17,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 server:
-  port: 8090
+  port: 8080
+
 
